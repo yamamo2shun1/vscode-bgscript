@@ -5,6 +5,10 @@
     "version": "0.0.1",
     "publisher": "tkrworks",
     "license": "GPL v3",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tkrworks/vscode-bgscript"
+    },
     "engines": {
         "vscode": "^1.0.0"
     },
