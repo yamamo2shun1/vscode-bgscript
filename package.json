@@ -1,0 +1,33 @@
+{
+    "name": "vscode-bgscript",
+    "displayName": "BGScript Language Support",
+    "description": "BGScript support to write a firmware code for Bluegiga devices",
+    "version": "0.0.1",
+    "publisher": "tkrworks",
+    "license": "GPL v3",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "keywords": [
+        "bgscript"
+    ],
+    "activationEvents": [
+        "onLanguage:bgscript"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "bgscript",
+            "aliases": ["BGScript", "bgscript"],
+            "extensions": [".bgs"],
+            "configuration": "./bgscript.configuration.json"
+        }],
+        "grammars": [{
+            "language": "bgscript",
+            "scopeName": "source.bgscript",
+            "path": "./syntaxes/bgscript.tmLanguage"
+        }]
+    }
+}
