@@ -1,6 +1,8 @@
 # VS Code support for BGScript 
 
-Provides BGScript support.
+Provides BGScript support.  
+This extension is ported from [Sublime-BGScript-Syntax](https://github.com/kalanda/Sublime-BGScript-Syntax).
+
 
 ## Installation
 
